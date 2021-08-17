@@ -1,2 +1,2 @@
 # Competitive-Programming-Algorithms-C++-Implementation-
-Implementation of most frequently used algorithms in CP
+Implementation of algorithms used in competetive programming in C++.
