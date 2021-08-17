@@ -24,7 +24,7 @@ class DSU
       int parent_a=get_parent(a);
       int parent_b=get_parent(b);
       if(rank[parent_a]==rank[parent_b])rank[parent_a]++;
-      // Small to large merging
+      // Union By Rank
       if(rank[parent_b]>rank[parent_a])parent[parent_a]=parent_b;
       else parent[parent_b]=parent_a;
     }
